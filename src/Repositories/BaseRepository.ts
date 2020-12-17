@@ -28,7 +28,7 @@ class BaseRepository extends Repository<Base>{
     if(uf){
       query.andWhere(`base.uf = :uf`, {uf: uf})
     }
-    if(uf){
+    if(produto){
       query.andWhere(`base.produto = :produto`, {produto: produto})
     }
     let objectBase = await query.getMany();
