@@ -7,8 +7,11 @@ Caso seja necessário, é possível ocultar informações (não utilizar alguns 
 As variáveis que podem ser consultadas são:
 ## (Sempre com letras maiúsculas)
 **uf:** Unidade federativa, ou abreviatura do estado -> PR, AC, SP, etc.
+
 **produto** Produto a qual se quer consultar.
+
 **startDateFilter** Data inicial desejada
+
 **endDateFilter** Data final desejada
 
 ## Exemplos:
