@@ -23,7 +23,7 @@ class BaseRepository extends Repository<Base>{
       query.where(`base.data >= :startDate`, {startDate: startDateFilter})
     }
     if(endDateFilter){
-      query.andWhere(`base.data <= :endDate`, {endDate: endDateFilter})
+      query.where(`base.data <= :endDate`, {endDate: endDateFilter})
     }
     if(uf){
       query.andWhere(`base.uf = :uf`, {uf: uf})
