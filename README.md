@@ -20,9 +20,10 @@ As variáveis que podem ser consultadas são:
     "uf": "PR",
     "produto": "FIXO",
     "startDateFilter": "2019-01-04",
-    "endDateFilter": "2019-10-08" //ano 2019, mês 10, dia 08.
+    "endDateFilter": "2019-10-08" 
 }
 ```
+No exemplo, a data passada em "startDateFilter" refere-se a 04 de janeiro de 2019. >> yyyy-mm-dd <<
 
 ```JSON
 {
@@ -31,3 +32,5 @@ As variáveis que podem ser consultadas são:
     "endDateFilter": "2020-07-11"
 }
 ```
+
+O retorno do arquivo do banco é em JSON, e possui um vetor de linhas do banco de dados denominado "base", além de um objeto denominado "ppValue", que possui como atributos "ppAverage" e "ppTotal".
