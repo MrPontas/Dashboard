@@ -5,13 +5,13 @@ Todas as variáveis devem ser passadas pelo **body** da requisição.
 
 Caso seja necessário, é possível ocultar informações (não utilizar alguns filtros).
 As variáveis que podem ser consultadas são:
-##(Sempre com letras maiúsculas)###
+## (Sempre com letras maiúsculas)
 **uf:** Unidade federativa, ou abreviatura do estado -> PR, AC, SP, etc.
 **produto** Produto a qual se quer consultar.
 **startDateFilter** Data inicial desejada
 **endDateFilter** Data final desejada
 
-##Exemplos:
+## Exemplos:
 ```JSON
 {
     "uf": "PR",
