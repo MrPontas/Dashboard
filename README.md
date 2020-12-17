@@ -14,17 +14,17 @@ As variáveis que podem ser consultadas são:
 ##Exemplos:
 ```JSON
 {
-    uf: "PR",
-    produto: "FIXO",
-    startDateFilter: "2019-01-04",
-    endDateFilter: "2019-10-08"
+    "uf": "PR",
+    "produto": "FIXO",
+    "startDateFilter": "2019-01-04",
+    "endDateFilter": "2019-10-08"
 }
 ```
 
 ```JSON
 {
-    uf: "BA",
-    produto: "CONTROLE",
-    endDateFilter: "2020-07-11"
+    "uf": "BA",
+    "produto": "CONTROLE",
+    "endDateFilter": "2020-07-11"
 }
 ```
