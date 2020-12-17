@@ -8,11 +8,11 @@ As variáveis que podem ser consultadas são:
 ## (Sempre com letras maiúsculas)
 **uf:** Unidade federativa, ou abreviatura do estado -> PR, AC, SP, etc.
 
-**produto** Produto a qual se quer consultar.
+**produto:** Produto a qual se quer consultar.
 
-**startDateFilter** Data inicial desejada
+**startDateFilter:** Data inicial desejada
 
-**endDateFilter** Data final desejada
+**endDateFilter:** Data final desejada
 
 ## Exemplos:
 ```JSON
@@ -20,7 +20,7 @@ As variáveis que podem ser consultadas são:
     "uf": "PR",
     "produto": "FIXO",
     "startDateFilter": "2019-01-04",
-    "endDateFilter": "2019-10-08"
+    "endDateFilter": "2019-10-08" //ano 2019, mês 10, dia 08.
 }
 ```
 
